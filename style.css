@@ -137,9 +137,6 @@ img[alt="Hero"] {
 }
 
 @media only screen and (min-width: 768px) {
-    html {
-        font-size: 120%;
-    }
 
     body {
         background: url("images/pattern-background-desktop.svg"), var(--pblue);
@@ -181,6 +178,7 @@ img[alt="Hero"] {
     #pay:hover {
         background: var(--desatb);
         color: var(--dblue);
+        transform: scale(1.1);
     }
 
     #cancel:hover {
