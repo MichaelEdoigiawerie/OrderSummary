@@ -154,6 +154,7 @@ img[alt="Hero"] {
 
     #change:hover {
         color: var(--dblue);
+        text-decoration-line: none;
         transform: scale(1.1);
     }
 
