@@ -59,7 +59,7 @@ img[alt="Hero"] {
     grid-template-rows: 30% 70%;
     grid-template-areas: "hero" "summary";
     border-radius: var(--brad);
-    box-shadow: 0 0.5rem 1rem var(--desatb);
+    box-shadow: 0 0.5rem 5rem var(--desatb);
     transition: 0.8s;
 }
 
