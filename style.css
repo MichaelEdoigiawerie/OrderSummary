@@ -144,7 +144,7 @@ img[alt="Hero"] {
         background-size: contain;
     }
 
-    h2, p {
+    h2, p, #change {
         font-size: 1.1rem;
     }
 
