@@ -138,13 +138,33 @@ img[alt="Hero"] {
 
 @media only screen and (min-width: 768px) {
     html {
-        font-size: 130%;
+        font-size: 120%;
     }
 
     body {
         background: url("images/pattern-background-desktop.svg"), var(--pblue);
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    h2, p {
+        font-size: 1.1rem;
+    }
+
+    .order-summary {
+        width: 25rem;
+    }
+
+    .summary {
+        padding-top: 1rem;
+    }
+
+    .plan {
+        width: 72%;
+    }
+
+    #pay {
+        width: 80%;
     }
 
     /*Desktop Animations*/
