@@ -112,7 +112,7 @@ img[alt="Hero"] {
     width: 90%;
     margin: 1rem auto;
     padding: 0.8rem 0;
-    box-shadow: 0 0.25rem 1rem var(--desatb);
+    box-shadow: 0 1rem 1rem var(--pblue);
 }
 
 #cancel {
