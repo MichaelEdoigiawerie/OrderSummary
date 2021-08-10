@@ -140,7 +140,7 @@ img[alt="Hero"] {
 #pay:active, #pay:hover {
     background: var(--desatb);
     color: var(--dblue);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 #cancel:active, #cancel:hover {
@@ -183,6 +183,12 @@ img[alt="Hero"] {
 
     /*Desktop Animations*/
     .order-summary:hover {
+        transform: scale(1.1);
+    }
+
+    #pay:hover {
+        background: var(--desatb);
+        color: var(--dblue);
         transform: scale(1.1);
     }
 }
